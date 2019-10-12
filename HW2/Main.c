@@ -1,3 +1,4 @@
+//Justin Shearson (jrs330)
 #include <stdio.h>
 #include <stdlib.h>
 #include <io.h>
@@ -47,6 +48,7 @@ int main(void)
 				stringFound = true;
 			}
 		}
+		//Adds the string into the file if it cannot be located
 		if (!stringFound) {
 			fprintf(file, "%s", peString);
 		}
