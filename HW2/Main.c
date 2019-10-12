@@ -47,6 +47,9 @@ int main(void)
 				stringFound = true;
 			}
 		}
+		if (!stringFound) {
+			fprintf(file, "%s", peString);
+		}
 
 	}
 
