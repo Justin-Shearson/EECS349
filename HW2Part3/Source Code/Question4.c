@@ -26,5 +26,6 @@ int main(void)
 	}
 
 	printf("%d", proc1(array, y, x));
-
+	
+	return 0;
 }
