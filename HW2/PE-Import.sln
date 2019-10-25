@@ -5,14 +5,6 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PE-Import", "HW2.vcxproj", "{0740EB9D-CEED-4CC3-923D-413E418F05B9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part3Question2", "..\HW2Part3Question2\Part3Question2\Part3Question2.vcxproj", "{FAFB8F6F-B2FB-4BA4-920B-50483B9D46F1}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part3Question1", "..\HW2Part3Question1\Part3\Part3.vcxproj", "{06C83CC0-E3C5-4BE9-8788-8D7D19EA5C75}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW2Part3Question3", "..\HW2Part3Question3\HW2Part3Question3.vcxproj", "{C39DD375-377A-40DA-918F-78E0715750EF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Part3Question4", "..\Part3Question4\Part3Question4.vcxproj", "{3D959CE5-CB48-4A9E-A17B-F51171B9ABC1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
