@@ -19,12 +19,12 @@ public class MessageActivity extends AppCompatActivity {
     private EditText phoneNumber;
     private EditText messageContent;
 
-    private void sendMessage(String phoneNumber, String smsMessage){
+    private void sendMessage(String inputPhoneNumber, String smsMessage){
         if(ActivityCompat.checkSelfPermission(MessageActivity.this, Manifest.permission.SEND_SMS) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(MessageActivity.this, new String[]{Manifest.permission.SEND_SMS}, 1);
         } else {
             SmsManager manager = SmsManager.getDefault();
-            manager.sendTextMessage(phoneNumber, null, smsMessage, null, null);
+            manager.sendTextMessage(inputPhoneNumber, null, smsMessage, null, null);
         }
 
     }
@@ -42,7 +42,7 @@ public class MessageActivity extends AppCompatActivity {
         messageButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                sendMessage(messageContent.getText().toString(), phoneNumber.getText().toString());
+                sendMessage(phoneNumber.getText().toString(),messageContent.getText().toString());
             }
         });
 
